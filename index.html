@@ -9,6 +9,7 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- Google Fonts -->
@@ -18,269 +19,176 @@
 
 <body>
 
-  <!-- NAVBAR -->
+<!-- HEADER -->
+<header>
   <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold" href="#">Ros Diaz 💖</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand fw-bold" href="#">CV Ros Diaz 💖</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto m">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#cv">Sobre mi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">Contacto</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!--END NAVBAR -->
+</header>
+
+<!-- MAIN -->
+<main>
 
   <!-- HERO -->
-  <section class="container-hero">
+  <section class="container-hero hero">
+    <div class="container">
+      <div class="row align-items-center">
 
-    <section class="hero">
-      <div class="container">
-        <div class="row align-items-center">
+        <div class="col-md-5 ms-md-auto text-center text-md-start hero-texto">
+          <h5>Hola 👋</h5>
+          <h1 class="titulo">Soy Roselis Diaz</h1>
+          <h3>Desarrolladora Web en formación</h3>
 
-          <div class="col-md-5 ms-md-auto text-center text-md-start hero-texto">
-            <h5>Hola 👋</h5>
-            <h1 class="titulo">Soy Roselis Diaz</h1>
-            <h3>Desarrolladora Web en curso</h3>
+          <p>Creo páginas web modernas usando HTML, CSS y Bootstrap.</p>
 
-            <p>Creo páginas web modernas usando HTML, CSS y Bootstrap.</p>
+          <a href="pages/portafolio.html" class="btn-portafolio">Ver Portafolio</a>
 
-            <a href="pages/portafolio.html" class="btn-portafolio">
-              Ver Portafolio
-            </a>
-            <button class="btn btn-outline-dark">Ver Github</button>
-          </div>
-
-          <div class="col-md-5 mt-3 text-center text-md-end contenedor-img">
-            <img src="./assets/images/img-perfil-portafolio.jpeg" class="img-fluid rounded-circle perfil-img">
-          </div>
-
+          <a href="https://github.com/Rdiaz2618" target="_blank" class="btn btn-outline-dark">
+            Ver GitHub
+          </a>
         </div>
+
+        <div class="col-md-5 mt-3 text-center text-md-end">
+          <img src="./assets/images/img-perfil-portafolio.jpeg" class="perfil-img img-fluid rounded-circle">
+        </div>
+
       </div>
-    </section>
-    <!--END HERO -->
-
-    <!-- SECTION ICONOS -->
-    <section class="pb-5">
-      <div class="container text-center">
-        <h2 class="col- mb-4">Herramientas 💻</h2>
-
-        <div class="row justify-content-end">
-
-          <div class="col-md-2 col-6 mb-3">
-            <div class="card card-tech p-1">
-              <h5>HTML</h5>
-              <i class="fa-brands fa-html5 icono"></i>
-            </div>
-          </div>
-
-          <div class="col-md-2 col-6 mb-3">
-            <div class="card card-tech p-1">
-              <h5>CSS</h5>
-              <i class="fa-brands fa-css3-alt icono"></i>
-            </div>
-          </div>
-
-          <div class="col-md-2 col-6 mb-3">
-            <div class="card card-tech p-1">
-              <h5>Bootstrap</h5>
-              <i class="fa-brands fa-bootstrap icono"></i>
-            </div>
-          </div>
-
-          <div class="col-md-2 col-6 mb-3">
-            <div class="card card-tech p-1">
-              <h5>Git Bash</h5>
-              <i class="fa-brands fa-git-alt icono"></i>
-            </div>
-          </div>
-
-          <div class="col-md-2 col-6 mb-3">
-            <div class="card card-tech p-1">
-              <h5>GitHub</h5>
-              <i class="fa-brands fa-github icono"></i>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-  </section>
-
-  <!--END ICONS SECTION -->
-
-  <!-- PROYECTOS -->
-  <section class="container mt-5">
-    <div class="row g-4">
-      <!-- CARD 1 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto1h_1b.webp" class="card-img-top" alt="Depto 1h+1b" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto 1h+1b</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos para 2 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- CARD 2 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto2h_1b.webp" class="card-img-top" alt="Depto 2h+1b" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto 2h+1b</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos para 3 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- CARD 3 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto2h_2b_a.webp" class="card-img-top" alt="Depto 2h+2b A" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto 2h+2b A</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos máx. 4 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- CARD 4 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto2h_2b_b.webp" class="card-img-top" alt="Depto 2h+2b B" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto 2h+2b B</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos máx. 4 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- CARD 5 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto2h_2b_mariposa.webp" class="card-img-top" alt="Depto Mariposa" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto Mariposa</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos máx. 4 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- CARD 6 -->
-      <article class="col-12 col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm border-0 card-hover">
-          <img src="./assets/images/depto3h_2b.webp" class="card-img-top" alt="Depto 3h+2b" />
-
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title fw-bold fs-3">Depto 3h+2b</h5>
-
-            <p class="card-text text-muted fs-5">
-              Deptos máx. 4 personas, sin comisión y gasto común fijo.
-            </p>
-
-            <span class="mb-3 text-muted">
-              <i class="fa-solid fa-location-dot me-2 text-danger"></i>
-              Cerca del Metro San Miguel
-            </span>
-
-            <hr class="mt-auto" />
-
-            <a href="#" class="btn btn-primary">Ver departamento</a>
-          </div>
-        </div>
-      </article>
     </div>
   </section>
 
-  <!--End Cards Section-->
+  <!-- CV -->
+  <section id="cv" class="container my-5 text-center">
 
+    <div class="mb-5">
+      <h2>Sobre mí</h2>
+      <p class="lead">
+        Desarrolladora web en formación enfocada en frontend moderno.
+      </p>
+    </div>
 
-  <h3>Bootcamp Fullstack Javascript - Desafío Latam - Cursando.</h3>
+    <!--ICONOS -->
+<section class="skills-section py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Habilidades Técnicas 💻</h2>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="row justify-content-center">
 
-  <script src="https://kit.fontawesome.com/aaba1f8136.js" crossorigin="anonymous"></script>
+      <div class="col-md-2 col-6 mb-3">
+        <div class="card-tech p-2">
+          <h5>HTML</h5>
+          <i class="fa-brands fa-html5 icono-card"></i>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-6 mb-3">
+        <div class="card-tech p-2">
+          <h5>CSS</h5>
+          <i class="fa-brands fa-css3-alt icono-card"></i>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-6 mb-3">
+        <div class="card-tech p-2">
+          <h5>Bootstrap</h5>
+          <i class="fa-brands fa-bootstrap icono-card"></i>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-6 mb-3">
+        <div class="card-tech p-2">
+          <h5>Git</h5>
+          <i class="fa-brands fa-git-alt icono-card"></i>
+        </div>
+      </div>
+
+      <div class="col-md-2 col-6 mb-3">
+        <div class="card-tech p-2">
+          <h5>GitHub</h5>
+          <i class="fa-brands fa-github icono-card"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="habilidades-profesionales">
+    <div class="mb-5 mt4">
+      <h2>Habilidades Profesionales</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Excel intermedio</li>
+        <li class="list-group-item">Resolución de problemas</li>
+        <li class="list-group-item">Trabajo en equipo</li>
+        <li class="list-group-item">Aprendizaje continuo</li>
+        <li class="list-group-item">Comunicación efectiva</li>
+      </ul>
+    </div>
+</section>
+    <div class="mb-5">
+      <h2>Proyectos</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5>Portafolio Web</h5>
+              <p>Sitio personal responsivo.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5>Landing Page</h5>
+              <p>Maquetación con Flexbox.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mb-5">
+      <h2>Contacto</h2>
+
+      <p>Email: tuemail@email.com</p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/Rdiaz2618" target="_blank">github.com/Rdiaz2618</a>
+      </p>
+
+      <p>Portafolio: ros…github.io</p>
+    </div>
+
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="text-center py-4 bg-light">
+  <h6>Bootcamp Fullstack Javascript - Desafío Latam</h6>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/aaba1f8136.js"></script>
+
 </body>
-
 </html>
