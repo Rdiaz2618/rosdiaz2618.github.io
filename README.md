@@ -61,3 +61,4 @@ https://rdiaz2618.github.io/rosdiaz2618.github.io/
 Desarrollado por **Roselis Díaz**  
 Bootcamp Desarrollo Full Stack - Desafío Latam 🚀
 
+<img width="1152" height="675" alt="image" src="./assets/images/img-pull-requests.jpeg" />
