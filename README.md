@@ -49,6 +49,22 @@ https://rdiaz2618.github.io/rosdiaz2618.github.io/
 
 ---
 
+## Evidencia de commits colaborativos
+
+### Fork 1: buffonico.github.io
+
+Commit realizado: [e0921d9 - Agrega nota de revision colaborativa](https://github.com/Rdiaz2618/buffonico.github.io/commit/e0921d9)
+
+![Pantallazo commit buffonico](./assets/images/evidencia-commit-buffonico.png)
+
+### Fork 2: desafio-4-cuppon
+
+Commit realizado: [f154465 - Agrega gitignore para archivos del sistema](https://github.com/Rdiaz2618/desafio-4-cuppon/commit/f154465)
+
+![Pantallazo commit desafio cuppon](./assets/images/evidencia-commit-cuppon.png)
+
+---
+
 ## 📫 Contacto
 
 - GitHub: [Rdiaz2618](https://github.com/Rdiaz2618)
