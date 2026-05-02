@@ -6,8 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #fff5f7;
-    overflow-x: hidden;
+    background-color: #faf8f8;
+    color: #212529;
+
 }
 
 /* HERO */
@@ -101,13 +102,6 @@ ul {
     margin-top: 40px;
 }
 
-/* RESPONSIVE HERO */
-@media (max-width: 768px) {
-    .hero-texto {
-        text-align: center;
-    }
-}
-
 /* CARDS PORTAFOLIO */
 
 .card {
@@ -126,4 +120,57 @@ img {
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CARDS EXPERIENCIA LABORAL */
+
+.experience-section {
+  padding: 0;
+}
+
+.experience-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 22px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fff;
+  transition: all 0.25s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  border-color: #d1d5db;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background: #f9fafb;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.company-name {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* RESPONSIVE HERO */
+@media (max-width: 768px) {
+    .hero-texto {
+        text-align: center;
+    }
+}
+
+.footer{
+    padding: 40px 0;
 }
