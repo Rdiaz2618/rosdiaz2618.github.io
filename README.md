@@ -9,7 +9,7 @@ Este proyecto muestra mis habilidades en HTML, CSS y Bootstrap, junto con la imp
 ## 🌐 Demo del proyecto
 
 👉 Puedes ver el portafolio aquí:  
-https://rosdiaz2618.github.io/
+https://rdiaz2618.github.io/rosdiaz2618.github.io/
 
 ---
 
